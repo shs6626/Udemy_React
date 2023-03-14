@@ -1,5 +1,3 @@
-console.log("hello");
+const calc = require("./calc");
 
-function a() {}
-
-console.log("calc");
+console.log(calc.add(1, 2));
